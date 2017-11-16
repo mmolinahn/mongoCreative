@@ -1,0 +1,156 @@
+nohup: ignoring input
+(node:20677) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+Connected
+[0mGET / [36m304 [0m5.416 ms - -[0m
+[0mGET /stylesheets/main.css [36m304 [0m2.097 ms - -[0m
+[0mGET /javascripts/dates.js [32m200 [0m4.332 ms - 1009[0m
+[0mGET /favicon.ico [31m500 [0m6.880 ms - 2206[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/app.js:53:7
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/app.js:42:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:330:12)
+[0mGET /date [36m304 [0m19.664 ms - -[0m
+[0mGET /date [36m304 [0m3.753 ms - -[0m
+[0mGET /date [36m304 [0m2.844 ms - -[0m
+[0mGET /date [36m304 [0m18.586 ms - -[0m
+[0mGET /date [36m304 [0m2.660 ms - -[0m
+[0mGET /date [36m304 [0m3.136 ms - -[0m
+[0mGET /date [36m304 [0m2.004 ms - -[0m
+[0mGET /date [36m304 [0m3.304 ms - -[0m
+[0mGET /date [36m304 [0m5.116 ms - -[0m
+(node:20677) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[0mPOST /date [32m200 [0m29.936 ms - 2[0m
+[0mPOST /date [32m200 [0m2.966 ms - 2[0m
+[0mPOST /date [32m200 [0m1.712 ms - 2[0m
+[0mPOST /date [32m200 [0m1.358 ms - 2[0m
+[0mGET /date [32m200 [0m2.991 ms - 1335[0m
+[0mGET /date [36m304 [0m3.743 ms - -[0m
+[0mGET /date [36m304 [0m4.416 ms - -[0m
+[0mGET /date [36m304 [0m5.324 ms - -[0m
+[0mPOST /date [32m200 [0m1.586 ms - 2[0m
+[0mPOST /date [32m200 [0m4.857 ms - 2[0m
+[0mPOST /date [32m200 [0m2.293 ms - 2[0m
+[0mPOST /date [32m200 [0m1.412 ms - 2[0m
+[0mPOST /date [32m200 [0m1.729 ms - 2[0m
+[0mPOST /date [32m200 [0m2.283 ms - 2[0m
+[0mPOST /date [32m200 [0m1.598 ms - 2[0m
+[0mPOST /date [32m200 [0m1.795 ms - 2[0m
+[0mPOST /date [32m200 [0m2.070 ms - 2[0m
+[0mPOST /date [32m200 [0m1.880 ms - 2[0m
+[0mGET /date [32m200 [0m4.383 ms - 2980[0m
+[0mGET /date [36m304 [0m9.093 ms - -[0m
+[0mGET /date [36m304 [0m3.485 ms - -[0m
+[0mGET /date [36m304 [0m3.778 ms - -[0m
+[0mGET /date [36m304 [0m5.633 ms - -[0m
+[0mGET /date [36m304 [0m3.405 ms - -[0m
+[0mGET /date [36m304 [0m2.666 ms - -[0m
+[0mGET /date [36m304 [0m2.828 ms - -[0m
+[0mGET /date [36m304 [0m2.122 ms - -[0m
+[0mGET /date [36m304 [0m2.358 ms - -[0m
+[0mPOST /date [32m200 [0m1.765 ms - 2[0m
+[0mGET /date [32m200 [0m3.743 ms - 3259[0m
+[0mGET /date [36m304 [0m2.315 ms - -[0m
+[0mGET /date [36m304 [0m2.382 ms - -[0m
+[0mGET /date [36m304 [0m2.580 ms - -[0m
+[0mGET /date [36m304 [0m4.752 ms - -[0m
+[0mPOST /date [32m200 [0m1.397 ms - 2[0m
+[0mGET /date [32m200 [0m2.163 ms - 3465[0m
+[0mGET /date [36m304 [0m3.149 ms - -[0m
+[0mGET /date [36m304 [0m2.638 ms - -[0m
+[0mGET /date [36m304 [0m1.990 ms - -[0m
+[0mGET /date [36m304 [0m2.953 ms - -[0m
+[0mGET /date [36m304 [0m3.889 ms - -[0m
+[0mGET /date [36m304 [0m2.632 ms - -[0m
+[0mGET / [36m304 [0m0.476 ms - -[0m
+[0mGET /stylesheets/main.css [36m304 [0m0.464 ms - -[0m
+[0mGET /javascripts/dates.js [32m200 [0m1.213 ms - 1009[0m
+[0mGET /favicon.ico [31m500 [0m1.212 ms - 2206[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/app.js:53:7
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/app.js:42:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:330:12)
+[0mGET /date [36m304 [0m2.035 ms - -[0m
+[0mPOST /date [32m200 [0m2.297 ms - 2[0m
+[0mGET /date [32m200 [0m2.131 ms - 3656[0m
+[0mGET /date [36m304 [0m4.463 ms - -[0m
+[0mGET /date [36m304 [0m2.128 ms - -[0m
+[0mGET /date [36m304 [0m1.995 ms - -[0m
+[0mGET /date [36m304 [0m2.358 ms - -[0m
+[0mGET /date [36m304 [0m3.439 ms - -[0m
+[0mGET /date [36m304 [0m2.153 ms - -[0m
+[0mGET /date [36m304 [0m2.688 ms - -[0m
+[0mGET /date [36m304 [0m2.702 ms - -[0m
+[0mGET /date [36m304 [0m6.742 ms - -[0m
+[0mGET /date [36m304 [0m2.615 ms - -[0m
+[0mGET /date [36m304 [0m2.663 ms - -[0m
+[0mGET /date [36m304 [0m2.784 ms - -[0m
+[0mGET /date [36m304 [0m2.431 ms - -[0m
+[0mPOST /date [32m200 [0m1.398 ms - 2[0m
+[0mPOST /date [32m200 [0m1.329 ms - 2[0m
+[0mPOST /date [32m200 [0m1.250 ms - 2[0m
+[0mGET /date [32m200 [0m6.093 ms - 4242[0m
+[0mGET /date [36m304 [0m2.084 ms - -[0m
+[0mGET /date [36m304 [0m2.036 ms - -[0m
+[0mGET /date [36m304 [0m2.058 ms - -[0m
+[0mGET /date [36m304 [0m2.620 ms - -[0m
+[0mGET /date [36m304 [0m3.193 ms - -[0m
+[0mGET /date [36m304 [0m3.753 ms - -[0m
+[0mGET /date [36m304 [0m2.635 ms - -[0m
+[0mGET /date [36m304 [0m2.467 ms - -[0m
+[0mGET /date [36m304 [0m2.026 ms - -[0m
+[0mGET /date [36m304 [0m2.007 ms - -[0m
+[0mGET /date [36m304 [0m2.601 ms - -[0m
+[0mGET /date [36m304 [0m2.039 ms - -[0m
+[0mGET /date [36m304 [0m1.993 ms - -[0m
+[0mGET /date [36m304 [0m2.064 ms - -[0m
+[0mGET /date [36m304 [0m5.344 ms - -[0m
+[0mGET /date [36m304 [0m3.236 ms - -[0m
+[0mGET /date [36m304 [0m2.041 ms - -[0m
+[0mGET /date [36m304 [0m2.040 ms - -[0m
+[0mGET / [36m304 [0m0.304 ms - -[0m
+[0mGET /javascripts/dates.js [36m304 [0m0.719 ms - -[0m
+[0mGET /stylesheets/main.css [32m200 [0m1.235 ms - 175[0m
+[0mGET /favicon.ico [31m500 [0m1.658 ms - 2206[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/app.js:53:7
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/app.js:42:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/mongoCreative/dateIdeas/node_modules/express/lib/router/index.js:330:12)

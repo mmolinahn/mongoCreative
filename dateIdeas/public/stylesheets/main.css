@@ -1,0 +1,21 @@
+ body, html {
+margin: 0;
+padding: 0;
+
+}
+h1{
+margin: 0;
+color: #f5f5dc;
+}
+body {
+background-color: #66b9bf;
+
+}
+header {
+
+background-color: #eeaa7b;
+}
+ul {
+list-style: none;
+
+}
